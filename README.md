@@ -75,52 +75,52 @@ Market concentration follows a bifurcated dynamic:
 
 Curated list of open-source Point of Sale engines, self-hosted checkout applications, and retail/restaurant frameworks, sorted descending by GitHub stargazers count:
 
-* **[Odoo POS](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+* **[Odoo POS](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   ⚡ Full-featured POS module within the Odoo open-source ERP suite; runs in a browser on any device and **works offline after initial connection**. Integrates with Odoo Inventory, Accounting, and eCommerce for real-time stock updates, customer loyalty, refunds, and consolidated multi-store reporting. Supports barcode scanning, hardware receipt printing, and multiple payment methods.
 
-* **[BTCPay Server POS](https://github.com/btcpayserver/btcpayserver)** [![GitHub stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)  
+* **[BTCPay Server POS](https://github.com/btcpayserver/btcpayserver)** [![GitHub_Stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)  
   ⚡ Self-hosted, open-source cryptocurrency payment processor with an integrated web Point of Sale app. Allows physical retailers to configure customizable product keypads, tip inputs, and invoice generation for Bitcoin on-chain and Lightning Network payments with zero third-party processing fees.
 
-* **[OSPOS (Open Source Point of Sale)](https://github.com/opensourcepos/opensourcepos)** [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)  
+* **[OSPOS (Open Source Point of Sale)](https://github.com/opensourcepos/opensourcepos)** [![GitHub_Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)  
   ⚡ Web-based POS for small to medium retail and hospitality businesses built on PHP/CodeIgniter 4 and MySQL. Features sales register, barcode scanning, receipt printing/emailing, inventory management with item kits, customer/supplier databases, multi-tier taxation, gift cards, restaurant tables, and detailed reporting. Docker support available.
 
-* **[NexoPOS](https://github.com/Blair2004/NexoPOS)** [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers)  
+* **[NexoPOS](https://github.com/Blair2004/NexoPOS)** [![GitHub_Stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers)  
   ⚡ Modern web-based POS built with Laravel, TailwindCSS, and Vue.js. Provides a responsive dashboard for sales, product catalogs, customer tracking, stock movements, and modular extension packages with support for multi-store and gastro/restaurant configurations.
 
-* **[Store-POS](https://github.com/tngoman/Store-POS)** [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)  
+* **[Store-POS](https://github.com/tngoman/Store-POS)** [![GitHub_Stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)  
   ⚡ Modern desktop Point of Sale built with Electron, React, and an Express + SQLite backend. Supports local area network (LAN) multi-terminal synchronization, visual catalog with product photos, receipt printing, and offline checkout.
 
-* **[POS Awesome (for ERPNext)](https://github.com/ucraft-com/POS-Awesome)** [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)  
+* **[POS Awesome (for ERPNext)](https://github.com/ucraft-com/POS-Awesome)** [![GitHub_Stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)  
   ⚡ Open-source Point of Sale built with Vue.js and Vuetify for ERPNext. Supports full **offline mode** for creating invoices and customers with local storage and automatic cloud synchronization on reconnection. Features multi-currency transactions, customer loyalty points, batch/serial tracking, returns, credit sales, and mobile payment integrations.
 
-* **[Laravel POS](https://github.com/angkosal/laravel-pos)** [![GitHub stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers)  
+* **[Laravel POS](https://github.com/angkosal/laravel-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers)  
   ⚡ Clean, full-featured web-based Point of Sale application developed in Laravel. Offers cashier registers, customer management, inventory control, printable receipts, invoice management, and comprehensive daily sales summaries.
 
-* **[React Point of Sale](https://github.com/shanmugharajk/react-point-of-sale)** [![GitHub stars](https://img.shields.io/github/stars/shanmugharajk/react-point-of-sale?style=social&color=white)](https://github.com/shanmugharajk/react-point-of-sale/stargazers)  
+* **[React Point of Sale](https://github.com/shanmugharajk/react-point-of-sale)** [![GitHub_Stars](https://img.shields.io/github/stars/shanmugharajk/react-point-of-sale?style=social&color=white)](https://github.com/shanmugharajk/react-point-of-sale/stargazers)  
   ⚡ Intuitive retail point-of-sale client built with React and Node.js. Features real-time cart adjustments, barcode input, customer receipt generation, transaction logging, and database management for quick checkout counters.
 
-* **[PHP Point Of Sale](https://github.com/deenseth/PHP-Point-Of-Sale)** [![GitHub stars](https://img.shields.io/github/stars/deenseth/PHP-Point-Of-Sale?style=social&color=white)](https://github.com/deenseth/PHP-Point-Of-Sale/stargazers)  
+* **[PHP Point Of Sale](https://github.com/deenseth/PHP-Point-Of-Sale)** [![GitHub_Stars](https://img.shields.io/github/stars/deenseth/PHP-Point-Of-Sale?style=social&color=white)](https://github.com/deenseth/PHP-Point-Of-Sale/stargazers)  
   ⚡ Lightweight PHP/MySQL point-of-sale system designed to help small retail storefronts track customer orders, manage SKU inventories, generate sales receipts, and export operational reports.
 
-* **[Kasir (Point of Sales)](https://github.com/aryadwiputra/point-of-sales)** [![GitHub stars](https://img.shields.io/github/stars/aryadwiputra/point-of-sales?style=social&color=white)](https://github.com/aryadwiputra/point-of-sales/stargazers)  
+* **[Kasir (Point of Sales)](https://github.com/aryadwiputra/point-of-sales)** [![GitHub_Stars](https://img.shields.io/github/stars/aryadwiputra/point-of-sales?style=social&color=white)](https://github.com/aryadwiputra/point-of-sales/stargazers)  
   ⚡ Contemporary retail cashier and inventory system engineered with Laravel 11, Inertia.js, React 19, and Tailwind CSS. Features category filtering, quick search, thermal receipt generation, and transaction history.
 
-* **[Go-POS](https://github.com/bagashiz/go-pos)** [![GitHub stars](https://img.shields.io/github/stars/bagashiz/go-pos?style=social&color=white)](https://github.com/bagashiz/go-pos/stargazers)  
+* **[Go-POS](https://github.com/bagashiz/go-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/bagashiz/go-pos?style=social&color=white)](https://github.com/bagashiz/go-pos/stargazers)  
   ⚡ High-performance RESTful Point of Sale microservice API developed in Go using Gin, PostgreSQL, and Redis caching. Implements hexagonal clean architecture for transactions, inventory stock deduplication, and cashier authentication.
 
-* **[ViewTouch](https://github.com/ViewTouch/viewtouch)** [![GitHub stars](https://img.shields.io/github/stars/ViewTouch/viewtouch?style=social&color=white)](https://github.com/ViewTouch/viewtouch/stargazers)  
+* **[ViewTouch](https://github.com/ViewTouch/viewtouch)** [![GitHub_Stars](https://img.shields.io/github/stars/ViewTouch/viewtouch?style=social&color=white)](https://github.com/ViewTouch/viewtouch/stargazers)  
   ⚡ Pioneering open-source Linux/X11 point-of-sale software developed specifically for the restaurant, bar, and hospitality industry. Supports networked touch terminals, table layouts, kitchen routing, and instant split-ticket billing.
 
-* **[FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)** [![GitHub stars](https://img.shields.io/github/stars/FreeOpenSourcePOS/FloCafe?style=social&color=white)](https://github.com/FreeOpenSourcePOS/FloCafe/stargazers)  
+* **[FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)** [![GitHub_Stars](https://img.shields.io/github/stars/FreeOpenSourcePOS/FloCafe?style=social&color=white)](https://github.com/FreeOpenSourcePOS/FloCafe/stargazers)  
   ⚡ Offline-first, MIT-licensed desktop Point of Sale built with Electron and SQLite for cafes, restaurants, and food counters. Includes Kitchen Display System (KDS), table seating layouts, and local ESC/POS thermal printing.
 
-* **[uniCenta oPOS](https://github.com/herbiehp/unicenta)** [![GitHub stars](https://img.shields.io/github/stars/herbiehp/unicenta?style=social&color=white)](https://github.com/herbiehp/unicenta/stargazers)  
+* **[uniCenta oPOS](https://github.com/herbiehp/unicenta)** [![GitHub_Stars](https://img.shields.io/github/stars/herbiehp/unicenta?style=social&color=white)](https://github.com/herbiehp/unicenta/stargazers)  
   ⚡ Enterprise-grade Java desktop POS (GPL3) for retail and hospitality storefronts. Features multi-register sales, SKU inventory, customer loyalty, barcode scanner drivers, cash drawer triggers, and relational SQL backends.
 
-* **[Floreant POS](https://github.com/floreantpos/floreantpos)** [![GitHub stars](https://img.shields.io/github/stars/floreantpos/floreantpos?style=social&color=white)](https://github.com/floreantpos/floreantpos/stargazers)  
+* **[Floreant POS](https://github.com/floreantpos/floreantpos)** [![GitHub_Stars](https://img.shields.io/github/stars/floreantpos/floreantpos?style=social&color=white)](https://github.com/floreantpos/floreantpos/stargazers)  
   ⚡ Java-based multi-terminal restaurant POS designed for table service, quick service, bar tabs, and kitchen order ticket (KOT) printing. Runs on Apache Derby, MySQL/MariaDB, or PostgreSQL.
 
-* **[Chromis POS](https://github.com/ChromisPos/ChromisPOS)** [![GitHub stars](https://img.shields.io/github/stars/ChromisPos/ChromisPOS?style=social&color=white)](https://github.com/ChromisPos/ChromisPOS/stargazers)  
+* **[Chromis POS](https://github.com/ChromisPos/ChromisPOS)** [![GitHub_Stars](https://img.shields.io/github/stars/ChromisPos/ChromisPOS?style=social&color=white)](https://github.com/ChromisPos/ChromisPOS/stargazers)  
   ⚡ Commercial-grade desktop POS for retail and food service (descendant of the uniCenta lineage). Features multi-terminal LAN networking, kitchen screen monitor add-on, customizable touch layouts, and peripheral hardware support.
 
 ---
@@ -131,7 +131,7 @@ We welcome community contributions, corrections, and additions to keep this ecos
 
 1. 🍴 **Fork the repo** to your personal GitHub account.
 2. 🌿 **Create a descriptive branch**: `git checkout -b add-new-pos-platform`.
-3. ✏️ **Add/edit entries in `README.md`** following the exact existing markdown table or list structure (including link, pricing details, and star counts).
+3. ✏️ **Add/edit entries in `README.md`** following the exact existing markdown table or list structure (including link, pricing details, and Stars_Counts).
 4. 🔍 **Ensure verified data**: Include accurate links to official pricing pages or open-source GitHub repositories.
 5. 📬 **Submit a Pull Request** with a concise summary of the additions or updates.
 
