@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.08" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.08" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#67e8f9" />
+      <stop offset="80%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .bg-grid { stroke: rgba(255, 255, 255, 0.04); stroke-width: 1; }
+      .float-pill-1 { animation: float1 7s ease-in-out infinite; }
+      .float-pill-2 { animation: float2 9s ease-in-out infinite; }
+      .float-pill-3 { animation: float3 8s ease-in-out infinite; }
+      .pulse-glow { animation: pulse 4s ease-in-out infinite; }
+      .dash-flow { stroke-dasharray: 8, 8; animation: flow 20s linear infinite; }
+
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(14px) rotate(-1.5deg); }
+      }
+      @keyframes float3 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.05); }
+      }
+      @keyframes flow {
+        to { stroke-dashoffset: -320; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="20" fill="url(#bgGrad)" />
+
+  <!-- Subtle Matrix Grid -->
+  <g class="bg-grid">
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="250" y1="0" x2="250" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="550" y1="0" x2="550" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="850" y1="0" x2="850" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="0" y1="80" x2="1200" y2="80" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+  </g>
+
+  <!-- Animated Ambient Glow Spheres (Layered behind everything) -->
+  <circle cx="200" cy="90" r="130" fill="#4f46e5" filter="url(#glow)" class="pulse-glow" />
+  <circle cx="1020" cy="270" r="140" fill="#06b6d4" filter="url(#glow)" class="pulse-glow" style="animation-delay: 2s;" />
+  <circle cx="620" cy="300" r="110" fill="#ec4899" filter="url(#glow)" class="pulse-glow" style="animation-delay: 1s;" />
+
+  <!-- Dynamic Connecting Flow Lines (Background) -->
+  <path d="M 50 300 Q 300 240, 600 290 T 1150 250" fill="none" stroke="rgba(99, 102, 241, 0.3)" stroke-width="2" class="dash-flow" />
+  <path d="M 50 70 Q 400 130, 800 60 T 1150 110" fill="none" stroke="rgba(20, 184, 166, 0.25)" stroke-width="2" class="dash-flow" style="animation-direction: reverse;" />
+
+  <!-- Dynamic Background Floating Cards / Pills (Placed tastefully on peripheral sides) -->
+  <!-- Left Side Dynamic Pill 1: Retail Checkout -->
+  <g class="float-pill-1" transform="translate(60, 50)">
+    <rect width="180" height="48" rx="24" fill="url(#cardGrad1)" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1.5" />
+    <circle cx="24" cy="24" r="12" fill="#6366f1" fill-opacity="0.3" />
+    <text x="24" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#a5b4fc" text-anchor="middle">🛒</text>
+    <text x="46" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#e0e7ff">Retail Checkout</text>
+  </g>
+
+  <!-- Left Side Dynamic Pill 2: Omnichannel POS -->
+  <g class="float-pill-2" transform="translate(40, 260)">
+    <rect width="170" height="44" rx="22" fill="url(#cardGrad2)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.5" />
+    <circle cx="22" cy="22" r="11" fill="#10b981" fill-opacity="0.3" />
+    <text x="22" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#6ee7b7" text-anchor="middle">⚡</text>
+    <text x="42" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#d1fae5">Omnichannel Sync</text>
+  </g>
+
+  <!-- Right Side Dynamic Pill 3: Restaurant & Kitchen -->
+  <g class="float-pill-2" transform="translate(960, 55)">
+    <rect width="190" height="48" rx="24" fill="url(#cardGrad3)" stroke="rgba(236, 72, 153, 0.4)" stroke-width="1.5" />
+    <circle cx="24" cy="24" r="12" fill="#ec4899" fill-opacity="0.3" />
+    <text x="24" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#f472b6" text-anchor="middle">🍽️</text>
+    <text x="46" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#fce7f3">Restaurant &amp; KDS</text>
+  </g>
+
+  <!-- Right Side Dynamic Pill 4: Open-Source & Self-Hosted -->
+  <g class="float-pill-1" transform="translate(980, 255)">
+    <rect width="175" height="44" rx="22" fill="url(#cardGrad1)" stroke="rgba(59, 130, 246, 0.4)" stroke-width="1.5" />
+    <circle cx="22" cy="22" r="11" fill="#3b82f6" fill-opacity="0.3" />
+    <text x="22" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#93c5fd" text-anchor="middle">💻</text>
+    <text x="42" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#dbeafe">FOSS &amp; Self-Hosted</text>
+  </g>
+
+  <!-- Center Primary Hero Content (High contrast foreground, safe from dynamic elements) -->
+  <!-- Category Top Badge -->
+  <g transform="translate(485, 45)">
+    <rect width="230" height="32" rx="16" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+    <circle cx="16" cy="16" r="6" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="122" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#38bdf8" text-anchor="middle" letter-spacing="1.2">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="46" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="-0.5">
+    Awesome Point Of Sale (POS)
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="18" fill="#cbd5e1" text-anchor="middle">
+    Top SaaS Platforms &amp; Self-Hosted Open-Source POS Systems
+  </text>
+
+  <!-- Feature Tags / Capabilities Bar -->
+  <g transform="translate(230, 222)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="160" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1" />
+    <text x="80" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#94a3b8" text-anchor="middle">💳 Payment Terminals</text>
+
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="180" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1" />
+    <text x="270" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#94a3b8" text-anchor="middle">📦 Inventory Management</text>
+
+    <!-- Pill 3 -->
+    <rect x="380" y="0" width="165" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1" />
+    <text x="462" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#94a3b8" text-anchor="middle">🍽️ Table &amp; Kitchen KDS</text>
+
+    <!-- Pill 4 -->
+    <rect x="565" y="0" width="175" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1" />
+    <text x="652" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#94a3b8" text-anchor="middle">📴 Offline-First Till</text>
+  </g>
+
+  <!-- Border Highlight Outline -->
+  <rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+</svg>
