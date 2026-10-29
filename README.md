@@ -30,7 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,68 +41,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Point of Sale (POS) software market is estimated at approximately **$16.1B to $17.1B in 2025** and projected to reach **$18.0B to $19.2B in 2026**, expanding at a CAGR of 10.5%–12.4%. Market concentration follows a bifurcated dynamic: it is **highly fragmented** among SMBs and micro-merchants served by thousands of regional ISVs and vertical-specific SaaS applications, while the enterprise tier is **moderately concentrated** among major unified commerce giants (Shopify, Block/Square, Fiserv/Clover, Toast, and NCR Voyix) that consolidate market share through embedded payment processing and integrated hardware ecosystems.
+
+
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Shopify POS](https://www.shopify.com/pos)**  
-
-  Point of sale integrated with Shopify ecommerce; Lite is free with paid Shopify plans for pop-ups and markets, while Pro ($89/month per location) unlocks retail staff permissions, exchanges, local delivery, and in-app analytics.
-
-
-
-- **[Square POS](https://squareup.com/)**  
-
-  Free POS software with a generous free tier; Square for Retail adds advanced inventory tools, barcode label printing, and item bundling at $109/month per location; transaction fees vary by plan.
-
-
-
-- **[Clover](https://www.clover.com/)**  
-
-  All-in-one POS hardware and software ecosystem with subscription or purchase pricing; includes payment acceptance, item management, and an app marketplace for add-ons.
-
-
-
-- **[Lightspeed POS](https://www.lightspeedhq.com/)**  
-
-  Cloud POS for retailers and restaurants with inventory management, reporting, multi-location support, and 250+ integrations; pricing varies by retail or restaurant vertical.
-
-
-
-- **[Toast POS](https://pos.toasttab.com/)**  
-
-  Restaurant-focused POS with menu management, kitchen display, online ordering, and payroll integration; pricing tied to hardware and payment processing.
-
-
-
-- **[Vend by Lightspeed](https://www.vendhq.com/)**  
-
-  Retail POS (now part of Lightspeed) with inventory, customer loyalty, and ecommerce integration; suited for independent retailers.
-
-
-
-- **[Revel Systems](https://revelsystems.com/)**  
-
-  iPad-based POS for restaurants and retail with inventory, CRM, and delivery integrations.
-
-
-
-- **[TouchBistro](https://www.touchbistro.com/)**  
-
-  Restaurant POS with table management, menu management, and reservation integration.
-
-
-
-- **[Heartland POS](https://www.heartland.us/)**  
-
-  POS and payment processing solution with inventory, employee management, and loyalty features.
-
-
-
-- **[NCR Voyix](https://www.ncrvoyix.com/)**  
-
-  Enterprise POS and self-service solutions for retail and restaurants, with hardware and software for large-scale deployments.
-
+| Platform | Market Cap / Valuation / Scale | Pricing | Free Tier / Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify POS](https://www.shopify.com/pos)** | ~$215B – $222B MCap ($11.6B Rev) | $39/mo (Basic plan including POS Lite); POS Pro add-on at $89/mo per location | 3-day free trial (no credit card required), followed by $1/mo promotional pricing for first 3 months; no permanent free tier | Omnichannel point of sale integrated directly with Shopify ecommerce, customer profiles, inventory, and multichannel orders. |
+| **[Square POS](https://squareup.com/)** | ~$45B MCap ($24B – $25B Rev) | $0/mo (Free tier, pay 2.6% + 15¢ per transaction); Square for Retail Plus starts at $89/mo per location | Free forever plan with unlimited items, basic inventory, and digital invoicing; restricted from advanced purchase orders, multi-location stock transfers, and automated inventory sync | Full-service point of sale app for iOS/Android and Square hardware with built-in payment processing and customer directory. |
+| **[Clover](https://www.clover.com/)** | ~$26B – $27B parent Fiserv MCap ($20B – $21B Rev) | $14.95/mo (Register Lite / Essentials); Payments Plus at $4.95/mo; full Register at $49.95/mo | 30-day to 90-day free software trial on Register Lite depending on merchant partner (processing fees still apply); Payments Plus ($4.95/mo) has no free tier and omits inventory tracking | Integrated hardware-software POS ecosystem with modular apps, item tracking, and customer loyalty for retail and dining. |
+| **[Toast POS](https://pos.toasttab.com/)** | ~$18B – $19B MCap ($6.8B Rev) | $0/mo (Quick Start software tier, higher processing rate); Standard Point of Sale starts at $69/mo | Free forever Quick Start tier ($0/mo software fee, but locked into proprietary payment processing at elevated rates around 3.09%–3.69% + 15¢; excludes multi-location tools and advanced reporting); no standalone self-serve trial | Dedicated cloud restaurant POS handling table management, menu layout, kitchen display systems (KDS), and online ordering. |
+| **[Heartland POS](https://www.heartland.us/)** | ~$22B parent Global Payments MCap (~$2.1B Rev at acquisition) | $89/mo per terminal (Essentials plan) + 2.6% + 10¢ processing | No permanent free tier; 14-to-30 day guided demo / occasional 90-day trial for select online ordering add-on modules only | Robust point-of-sale and payment processing platform with inventory, employee time tracking, and hospitality operations. |
+| **[Lightspeed POS](https://www.lightspeedhq.com/)** | ~$1.4B MCap ($1.2B Rev) | $89/mo (Basic, billed annually) or $109/mo (billed monthly) | 14-day free trial with full access to inventory tracking and register layouts; no permanent free tier | Multi-channel cloud POS tailored for specialty retailers and complex restaurant operations with deep supplier catalog integrations. |
+| **[NCR Voyix](https://www.ncrvoyix.com/)** | ~$1.1B MCap ($2.4B Rev) | Quote-based / ~$65–$175/mo per terminal (Aloha Cloud / Retail tier) | No free tier or merchant software free trial; offers 90-day developer "Test Drive" trial restricted strictly to API sandbox testing | Enterprise-grade POS and self-service commerce terminals engineered for large retail supermarket chains and multi-unit hospitality operators. |
+| **[Vend by Lightspeed](https://www.vendhq.com/)** | Acquired by Lightspeed for $350M (Part of $1.4B MCap) | $89/mo (Integrated Lightspeed Retail Standard tier) | 14-day free trial for retail testing; no permanent free tier | Intuitive retail point-of-sale and inventory platform specialized for independent boutiques and multi-outlet storefronts. |
+| **[Revel Systems](https://revelsystems.com/)** | Acquired by Shift4 for $250M (Part of Shift4 Payments ~$3B MCap) | $99/mo per terminal (annual commitment with payment processing agreement) | No permanent free tier and no self-serve free trial (requires live sales demo and custom onboarding) | iPad-based POS system designed for high-volume quick service, restaurant dining, and retail franchises. |
+| **[TouchBistro](https://www.touchbistro.com/)** | Private (~$321M venture funding, $100M+ ARR) | $69/mo (Core software plan, billed annually) | No permanent free tier and no public self-service free trial (guided interactive demo required) | iPad and cloud restaurant management system offering floor plans, table turn tracking, menu engineering, and staff management. |
 
 
 ## Open-Source GitHub Projects
